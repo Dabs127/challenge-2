@@ -1,6 +1,6 @@
 <template>
-    <main>
-        Hi
+    <main class=" h-full">
+        <HomeHero/>
     </main>
 </template>
 
