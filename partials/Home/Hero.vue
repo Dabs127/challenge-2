@@ -31,14 +31,17 @@
       </span>
     </div>
     <div>
-      <button
+      <NuxtLink
         type="button"
         class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium bg-primary hover:bg-primary/90 h-11 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white px-8 py-4 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer"
-      >
+        to="/generator"
+        >
         <Icon name="ion:sparkles-outline" />
         Crear Paletas Ahora
-      </button>
+      </NuxtLink>
     </div>
+
+    <NuxtLink class="text-gray-400 underline mt-10" to="/privacy-notice">Aviso de privacidad</NuxtLink>
   </div>
 </template>
 
